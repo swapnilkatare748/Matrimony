@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui;
+  }
+  
+  .login-button {
+    padding: 1.5vh 2.3vw;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0vh 10px;
+    background-color: var(--button);
+    color: var(--white);
+  }
+  
+  .login-button:hover{
+    box-shadow: var(--box-shadow);
+    font-weight: 500;
+    transition: 0.1s;
+    font-weight: 700;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--primary-color);
+    height: 10vh;
+  }
+  
+  .navbar-logo {
+    /* flex: 1; */
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-logo .logo {
+    height: 40px; /* Adjust the height of the logo */
+  }
+  .navbar-logo>h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+  }
+  .navbar-links>li>a:focus,
+  .navbar-links>li>a:hover{
+   font-weight: bold;
+   /* color: var(--button); */
+   color: var(--white);
+  }
+  .navbar-links {
+    display: flex;
+    gap: 3rem;
+    flex: 2;
+    justify-content: start;
+    margin-left: 10vh;
+    list-style-type: none;
+  }
+    
+  .navbar-login {
+    flex: 1;
+    text-align: right;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: #eee;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+    }
+  
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-login {
+      order: 3;
+      text-align: left;
+      width: 100%;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+    }
+  
+    .hamburger .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+    }
+  }
+  

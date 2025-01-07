@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+:root{
+   /* --primary-color:#e72e2ee5; */
+   /* --button: #943c3c; */
+  
+   /* --primary-color:#68021cf6; */
+
+
+   --primary-color:#800020;
+   --button: #CA3438;
+
+
+  /* --primary-color:#7C878E; */
+   /* --button: #943c3c; */
+  
+  
+ --white:#fff;
+  --box-shadow: 1px 1px 5px black;
+  --black:black;
+}

@@ -1,0 +1,120 @@
+.Footer{
+  width: 100%;
+  margin: 0;
+  height: 65vh;
+  display: flex;
+
+  margin-top: 6vh;
+  background-color: var( --primary-color);
+  justify-content: space-around;
+}
+
+.Footer>div{
+  height: 80%;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 1vh;
+}
+
+.Footer>div>h2{
+  color: var( --white);
+  font-size: 1.7em;
+  padding: 10px 0px;
+}
+.Footer>div>a{
+  text-decoration: none;
+   color: var(--white);
+   text-shadow: 1px 1px 1px ;
+   font-weight: 400;
+
+
+
+}
+.heading_div{
+     width: 30%;
+}
+.heading{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: var(--white);
+  font-size: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-style: normal;
+  background: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.heading:hover{
+  font-weight: bold;
+ 
+}
+.heading_div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading_div>p{
+  text-align: center;
+}
+.Footer>div>a:focus,
+.Footer>div>a:hover{
+    transform: scaleX(1.1);
+    transition: 0.2s;
+    /* color: var(--black); */
+    background: linear-gradient(  var(--primary-color), #000 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Footer>div>i{
+  margin-top: 10px;
+  font-size: 2.3em;
+  color: var(--white);
+
+}
+.Footer>div>i:hover{
+  background: linear-gradient( red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.2s;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.foolast{
+  width: 100%;
+  background-color: var(--primary-color);
+  height: 7vh;
+  border-top: 3px solid white;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foolast>div{
+  margin: 0 5vw;
+  display: flex;
+   gap: 2vw;
+}
+.foolast>div>i:hover{
+  background: linear-gradient( red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.2s;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.Social{
+  display: flex;
+  flex-direction: row;
+}

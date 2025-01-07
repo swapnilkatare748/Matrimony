@@ -1,0 +1,93 @@
+.statsSection {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .statsSection h2 {
+    /* margin-bottom: 40px;
+    color: #333; */
+    color: rgb(58, 58, 60);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .statsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .statBox {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .iconContainer {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 60px; /* Adjust the size as needed */
+  }
+  
+  .statBox h3 {
+    color: #c74a65;
+    font-size: 24px;
+    margin: 10px 0;
+  
+  }
+  
+  .statText {
+    color: #333;
+    font-size: 18px;
+    margin: 3px 0;
+  }
+  
+  .statDescription {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  .cta {
+    margin-top: 20px;
+    background-color: var(--primary-color); /* Background color for the call-to-action section */
+    padding: 20px;
+    color: var(--white);
+  }
+  
+  .cta p {
+    font-size: 18px;
+    color: white;
+    display: inline;
+    word-spacing: 2px;
+  }
+  
+  .registerButton {
+    background-color: white;
+    color: var(--button);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .registerButton:hover {
+    box-shadow: var(  --box-shadow);
+    background-color: var(--button);
+    color: white;
+    transition: 0.2s;
+  }
+  

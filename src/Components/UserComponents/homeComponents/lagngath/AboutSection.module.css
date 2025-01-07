@@ -1,0 +1,50 @@
+.aboutSectionWrapper {
+  margin-top: 20px; /* Gap at the top */
+  margin-bottom: 20px; /* Gap at the bottom */
+}
+
+.customCard {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+}
+
+.customCardBody {
+  background-color: rgb(235, 232, 232);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.textCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: var(--button);
+  margin-bottom: 0.7px;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.viewMoreButton {
+  padding: 10px 20px;
+  width: 150px;
+  border: 1px solid rgb(255, 0, 102);
+  color: white;
+ transition: background-color 0.3s ease;
+}
+
+
